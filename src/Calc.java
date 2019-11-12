@@ -51,9 +51,7 @@ public class Calc {
         for (int i = 0; i < employees.length; i++) {
             if (minSalary < employees[i].getSalary()) {
                 minSalary = employees[i].getSalary();
-                i++;
             }
-            i++;
         }
         return minSalary;
     }
