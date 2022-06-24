@@ -1,0 +1,31 @@
+Treść zadania
+Stwórz aplikację, która pozwoli odczytać plik w formacie CSV, gdzie każdy wiersz zawiera następujące informacje:
+
+imię;nazwisko;pesel;dział;pensja
+Plik musi posiadać nazwę employees.csv
+
+Przykładowa zawartość pliku:
+
+Jan;Kowalski;123456789;Management;6000
+Aneta;Zawadzka;432156789;IT;5200
+Karol;Kowalewski;5412328948;IT;5200
+Jan;Zarzecki;678628373674;Support;4800
+Program powinien odczytać informacje o pracownikach do tablicy typu Employee. Klasa Employee powinna posiadać pola odpowiadające danym zapisanym w pliku, czyli imię, nazwisko, numer id / pesel, nazwę działu i wypłatę.
+
+Następnie zdefiniuj metody, które zwrócą statystyki takie jak:
+
+średnia wypłata,
+najniższa wypłata,
+największa wypłata,
+liczba pracowników pracujących we wskazanym dziale.
+Statystyki zapisz w pliku tekstowym o nazwie stats.txt, który ostatecznie powinien wyglądać tak:
+
+Średnia wypłata: 5300
+Minimalna wypłata: 4800
+Maksymalna wypłata: 6000
+Liczba pracowników IT: 2
+Liczba pracowników Support: 1
+Liczba pracowników Management: 1
+Program napisz w sposób obiektowy z podziałem na klasy i metody. Załóż, że w firmie istnieją trzy z góry określone działy: IT, Support i Management.
+
+Twoje rozwiązanie powinno zaczynać się w metodzie main() w klasie Main.
